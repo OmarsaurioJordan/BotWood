@@ -48,23 +48,47 @@ if rr < 8 and rr >= 0
 //brazito golpeador al fondo
 if bm < 8 and bm != -1
 {
-    if lanzado
-    {
-        draw_sprite(d_ext_robot, 25 + ddd, x + lengthdir_x(sep, bm * 22.5),
-            y + lengthdir_y(sep, bm * 22.5));
-    }
-    else
-    {
-        draw_sprite(d_ext_robot, 41 + ddd, x + lengthdir_x(sep, bm * 22.5),
-            y + lengthdir_y(sep, bm * 22.5));
-    }
+	if o_game.modo_dist
+	{
+		draw_sprite(d_ext_robot, 57 + ddd, x + lengthdir_x(sep, bm * 22.5),
+			y + lengthdir_y(sep, bm * 22.5));
+	}
+	else
+	{
+	    if lanzado
+	    {
+	        draw_sprite(d_ext_robot, 25 + ddd, x + lengthdir_x(sep, bm * 22.5),
+	            y + lengthdir_y(sep, bm * 22.5));
+	    }
+	    else
+	    {
+	        draw_sprite(d_ext_robot, 41 + ddd, x + lengthdir_x(sep, bm * 22.5),
+	            y + lengthdir_y(sep, bm * 22.5));
+	    }
+	}
 }
 
 //brazito disparador al fondo
 if bd < 9 and bd > 0
 {
-    draw_sprite(d_ext_robot, 57 + ddd, x + lengthdir_x(sep, bd * 22.5),
-        y + lengthdir_y(sep, bd * 22.5));
+	if o_game.modo_mele
+	{
+		if lanzadi
+	    {
+	        draw_sprite(d_ext_robot, 25 + ddd, x + lengthdir_x(sep, bd * 22.5),
+	            y + lengthdir_y(sep, bd * 22.5));
+	    }
+	    else
+	    {
+	        draw_sprite(d_ext_robot, 41 + ddd, x + lengthdir_x(sep, bd * 22.5),
+	            y + lengthdir_y(sep, bd * 22.5));
+	    }
+	}
+	else 
+	{
+		draw_sprite(d_ext_robot, 57 + ddd, x + lengthdir_x(sep, bd * 22.5),
+			y + lengthdir_y(sep, bd * 22.5));
+	}
 }
 
 //piesitos
@@ -112,23 +136,47 @@ if rr >= 8
 //brazito golpeador al frente
 if bm >= 8
 {
-    if lanzado
-    {
-        draw_sprite(d_ext_robot, 25 + ddd, x + lengthdir_x(sep, bm * 22.5),
-            y + lengthdir_y(sep, bm * 22.5));
-    }
-    else
-    {
-        draw_sprite(d_ext_robot, 41 + ddd, x + lengthdir_x(sep, bm * 22.5),
-            y + lengthdir_y(sep, bm * 22.5));
-    }
+	if o_game.modo_dist
+	{
+		draw_sprite(d_ext_robot, 57 + ddd, x + lengthdir_x(sep, bm * 22.5),
+			y + lengthdir_y(sep, bm * 22.5));
+	}
+	else 
+	{
+	    if lanzado
+	    {
+	        draw_sprite(d_ext_robot, 25 + ddd, x + lengthdir_x(sep, bm * 22.5),
+	            y + lengthdir_y(sep, bm * 22.5));
+	    }
+	    else
+	    {
+	        draw_sprite(d_ext_robot, 41 + ddd, x + lengthdir_x(sep, bm * 22.5),
+	            y + lengthdir_y(sep, bm * 22.5));
+	    }
+	}
 }
 
 //brazito disparador al frente
 if bd >= 9 or bd == 0
 {
-    draw_sprite(d_ext_robot, 57 + ddd, x + lengthdir_x(sep, bd * 22.5),
-        y + lengthdir_y(sep, bd * 22.5));
+	if o_game.modo_mele
+	{
+		if lanzadi
+	    {
+	        draw_sprite(d_ext_robot, 25 + ddd, x + lengthdir_x(sep, bd * 22.5),
+	            y + lengthdir_y(sep, bd * 22.5));
+	    }
+	    else
+	    {
+	        draw_sprite(d_ext_robot, 41 + ddd, x + lengthdir_x(sep, bd * 22.5),
+	            y + lengthdir_y(sep, bd * 22.5));
+	    }
+	}
+	else
+	{
+	    draw_sprite(d_ext_robot, 57 + ddd, x + lengthdir_x(sep, bd * 22.5),
+		    y + lengthdir_y(sep, bd * 22.5));
+	}
 }
 
 //cabezita

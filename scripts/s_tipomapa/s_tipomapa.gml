@@ -16,8 +16,4 @@ function s_tipomapa() {
 	else {
 	    o_game.tipomapa = 4; // pelea normal
 	}
-
-
-
-
 }

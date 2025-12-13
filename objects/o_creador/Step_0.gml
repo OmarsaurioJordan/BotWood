@@ -37,9 +37,17 @@ if mouse_check_button_pressed(mb_left)
             case 3: case 4: case 5:
             case 6: case 7: case 8:
             case 10: case 11: case 12:
-            case 13: case 15: case 16:
+            case 15: case 16:
                 instance_create(x, y, s_seleobj(seleccion));
                 audio_play_sound(a_edi_poner, 99, false);
+                break;
+			
+			case 13:
+				if instance_number(o_munidron) < m_munidron
+				{
+	                instance_create(x, y, o_munidron);
+	                audio_play_sound(a_edi_poner, 99, false);
+				}
                 break;
             
             case 9:
@@ -66,7 +74,7 @@ if mouse_check_button_pressed(mb_left)
                 break;
             
             case 14:
-                if instance_number(o_munibot) < m_municion
+                if instance_number(o_munibot) < m_municion + 1
                 {
                     instance_create(x, y, o_munibot);
                     audio_play_sound(a_edi_poner, 99, false);

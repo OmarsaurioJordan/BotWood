@@ -18,7 +18,7 @@ reloj_ping = 0;
 puerto = 4749;
 servidor = network_create_socket_ext(network_socket_udp, puerto);
 if servidor < 0 {
-    show_message_async("Fail connecting with UDP server, No App gamepads");
+    show_message_async("Fail creating UDP port, No App gamepads");
 }
 for (var i = 0; i < 12; i++)
 {

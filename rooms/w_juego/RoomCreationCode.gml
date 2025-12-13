@@ -180,8 +180,7 @@ if instance_exists(o_salon)
 
 //cargar el mapa seleccionado y prepara el juego
 s_ejecutamapa(o_game.mundo);
-o_game.munidronsuelo *= instance_number(o_salon);
-if o_game.munidronsuelo > 0
+if o_game.munidronsuelo > 0 and o_game.munidronsuelo < m_munidron
 {
     repeat max(1, instance_number(o_salon))
     {
@@ -194,6 +193,10 @@ if instance_exists(o_puntoasedio) and instance_exists(o_edificio)
     var as = instance_find(o_puntoasedio, irandom(instance_number(o_puntoasedio) - 1));
     instance_create(as.x, as.y, o_asediador);
 }
+var munni = o_game.munidronsuelo + o_game.muni_inicial + instance_number(o_regalo);
+o_game.modo_mele = munni == 0;
+o_game.modo_dist = o_game.muni_inicial == m_municion + 1;
+o_game.players_lan = s_lan_players();
 s_tipomapa();
 
 s_ponemusica();

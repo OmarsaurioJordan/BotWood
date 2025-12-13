@@ -13,6 +13,9 @@ if !o_game.pausa
             if accion == m_grua
             {
                 baja = false;
+				if o_game.munidronsuelo == m_munidron {
+					agarro = true;
+				}
             }
         }
         else
@@ -24,7 +27,12 @@ if !o_game.pausa
                 if agarro and municion < m_municion
                 {
                     agarro = false;
-                    municion++;
+					if o_game.munidronsuelo == m_munidron and o_game.modo_dist {
+						municion = min(m_municion, municion + 2);
+					}
+					else {
+	                    municion++;
+					}
                     audio_play_sound(a_bot_muni, 65, false);
                 }
             }

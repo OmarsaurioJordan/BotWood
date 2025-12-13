@@ -63,7 +63,7 @@ function s_savemap() {
         
 	        case 14:
 	            ini_write_string("config", "munibot",
-	                string(clamp(instance_number(o_munibot), 0, m_municion)));
+					string(instance_number(o_munibot)));
 	            break;
         
 	        case 17:
@@ -80,7 +80,4 @@ function s_savemap() {
 	}
 
 	ini_close();
-
-
-
 }

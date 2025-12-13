@@ -190,15 +190,15 @@ if instance_exists(o_creador)
                 break;
             case 9: ayuda = "STARTING POINT:#This is where the robot of the given color will start.";
                 break;
-            case 10: ayuda = "AMMUNITION:#These are the balls (projectiles) present at the beginning of the game on the map, to be collected by the robots.";
+            case 10: ayuda = "AMMUNITION:#These are the balls (projectiles) present at the beginning of the game on the map, to be collected by the robots.#note: in general, no ammo, no respawn ammo, no ammo at all, will put the game in mele mode.";
                 break;
             case 11: ayuda = "TOWER:#Sentinel that watches around, will shoot mercilessly at a robot it sees but slowly, it will avoid shooting towards BUILDINGS and won't work if there are none.";
                 break;
             case 12: ayuda = "SIEGE:#Automatic robot that moves towards BUILDINGS to knock them down with an unrechargeable melee hit, so it will flee afterwards; if you place these on the map, they won't appear there, instead, they will mark directions towards the ends, where these bots will appear randomly and in waves (if there are BUILDINGS).";
                 break;
-            case 13: ayuda = "AMMO DRONE:#A drone will drop ammunition randomly on the map, it will keep as much as there are flags (these are not visible in the game), the number of flags will be multiplied by the number of bots on the map.";
+            case 13: ayuda = "AMMO DRONE:#A drone will drop ammunition randomly on the map, it will keep as much as there are flags (these are not visible in the game), the number of flags will be multiplied by the number of bots on the map.#note: put the maximum limit of flags will turn the game in, infinite ammo mode.";
                 break;
-            case 14: ayuda = "AMMO BOT:#The number of flags (not visible in the game) will determine the initial ammunition amount in each player's robot, hence there is a limit.";
+            case 14: ayuda = "AMMO BOT:#The number of flags (not visible in the game) will determine the initial ammunition amount in each player's robot, hence there is a limit.#note: put the maximum limit (that is over bot capacity) will activate the only shots game mode.";
                 break;
             case 15: ayuda = "NO DRONE:#Areas where the drone will not drop ammunition (not visible in the game).";
                 break;

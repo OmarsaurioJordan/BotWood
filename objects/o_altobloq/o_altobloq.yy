@@ -6,8 +6,8 @@
   "name":"o_altobloq",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"principales",
+    "path":"folders/Objects/principales.yy",
   },
   "parentObjectId":{
     "name":"o_bloque",

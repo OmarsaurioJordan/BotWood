@@ -1,5 +1,5 @@
 function macros() {
-#macro m_version "1.5"
+#macro m_version "1.6"
 #macro m_velave 0.00002
 #macro m_textoman 1
 #macro m_turbobot 1.25
@@ -15,8 +15,7 @@ function macros() {
 #macro m_acelgiro 0.00000000002
 #macro m_acelmove 0.00000000002
 #macro m_municion 6
-#macro m_acel_rot 12
-#macro m_acel_lin 12
+#macro m_munidron 11
 #macro m_torrerecarg 18000000
 #macro m_torredonde 10000000
 #macro m_gravedad 0.000098

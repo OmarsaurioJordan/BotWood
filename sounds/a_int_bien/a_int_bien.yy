@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":6,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.7774376,
   "exportDir":"",
   "name":"a_int_bien",
   "parent":{

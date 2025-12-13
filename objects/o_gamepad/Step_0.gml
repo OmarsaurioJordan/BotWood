@@ -44,21 +44,23 @@ else {
 	reloj_red -= mydelta;
 	if reloj_red <= 0 {
 	    reloj_red += 5;
-		var _msk = s_ip_str_int(msk_lan);
-	    var _lan = s_ip_str_int(dir_lan);
-	    var _rango = min(2047, 4294967295 - _msk);
-	    var _ip;
-	    for (var i = _rango; i > 0; i--) {
-	        _ip = s_ip_str_int((_lan & _msk) + i);
-	        ds_stack_push(broadcast, _ip);
-	    }
+		if s_lan_players() < o_game.players_lan or room != w_juego {
+			var _msk = s_ip_str_int(msk_lan);
+		    var _lan = s_ip_str_int(dir_lan);
+		    var _rango = min(2047, 4294967295 - _msk);
+		    var _ip;
+		    for (var i = _rango; i > 0; i--) {
+		        _ip = s_ip_str_int((_lan & _msk) + i);
+		        ds_stack_push(broadcast, _ip);
+		    }
+		}
 	}
 }
 
 // envio modo actual a Apps
 reloj_ping -= mydelta;
 if reloj_ping <= 0 {
-    reloj_ping += 0.1;
+    reloj_ping += 0.5;
     var buf = buffer_create(1, buffer_grow, 1);
     buffer_seek(buf, buffer_seek_start, 0);
     if room == w_lobby {

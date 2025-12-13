@@ -1,13 +1,8 @@
 Tareas:
-nota ya subi version a 5
-- si no hay dron ni nada de municion modo mele, dos puños y más alcance
-- mapa aro C inicia full ammo
-- mapas distancia no obligar a separarse
-- mapas distancia inician full ammo
-- mapas mele inician sin ammo
-- redefinir algoritmo dron, flags es no cuanto puede haber sino cuanto debe haber
-- si flags dron top limite, modo distancia, dos disparos y sin dron, recarga con grua
-- cuando juego inicia obtener num players, solo busqueda broadcast si uno desconectado
+- 
+
+Notas:
+- en s_ejecutamapa() se ha forzado a que drones dejen mucha municion
 
 Protocolo UDP:
 - botwood|0|x - send hola a todos
@@ -16,6 +11,7 @@ Protocolo UDP:
 - botwood|3|x - send game a uno ciclo
 - botwood|4|grupo|usr|x - receive lobby data
 - botwood|5|maquina|usr|x - receive game data
+- botwood|6|direccion|usr|x - receive direccion
 
 Personajes:
 red robin violent

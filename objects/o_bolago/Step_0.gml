@@ -1,10 +1,16 @@
 if !o_game.pausa
 {
-    reloj_regreso -= dlt;
+	if o_game.modo_mele {
+	    reloj_regreso -= dlt * 0.5;
+	}
+	else {
+		reloj_regreso -= dlt;
+	}
     if reloj_regreso <= 0
     {
         var bb = instance_create(x, y, o_bolareg);
         bb.origen = origen;
+		bb.es_izquierdo = es_izquierdo;
         instance_destroy();
     }
     else
@@ -102,6 +108,7 @@ if !o_game.pausa
             
             var bb = instance_create(x, y, o_bolareg);
             bb.origen = origen;
+			bb.es_izquierdo = es_izquierdo;
             instance_create(x, y, o_exploproy);
             instance_destroy();
         }

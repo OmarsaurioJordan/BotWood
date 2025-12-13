@@ -65,13 +65,17 @@ function s_ejecutamapa(argument0) {
         
 	        case 13:
 	            o_game.munidronsuelo = real(ini_read_string("config", "munidron", "0"));
+				if o_game.munidronsuelo > 0 and o_game.munidronsuelo < m_munidron {
+					o_game.munidronsuelo = m_munidron - 1; // forzado
+				}
 	            break;
         
 	        case 14:
 	            var mu = real(ini_read_string("config", "munibot", "0"));
+				o_game.muni_inicial = mu;
 	            with o_grua
 	            {
-	                municion = mu;
+	                municion = min(m_municion, mu);
 	            }
 	            break;
         

@@ -10,8 +10,8 @@
   "name":"o_creador",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"principales",
+    "path":"folders/Objects/principales.yy",
   },
   "parentObjectId":null,
   "persistent":false,

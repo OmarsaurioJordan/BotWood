@@ -13,7 +13,7 @@ if !o_game.pausa
                         y + 16 - irandom(32), true, 0);
                 }
             }
-            if random(1) <= 0.7
+            if random(1) <= 0.5
             {
                 audio_play_sound(a_bot_fuego, 5, false);
             }

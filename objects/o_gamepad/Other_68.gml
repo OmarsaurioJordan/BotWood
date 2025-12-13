@@ -32,7 +32,7 @@ if ds_map_find_value(async_load, "type") == network_type_data {
                 }
             }
             user_ip[usr] = ipp;
-            user_final[usr] = 6;
+            user_final[usr] = 10;
             s_set_salgase(1 + usr, 0);
         }
         // lobby

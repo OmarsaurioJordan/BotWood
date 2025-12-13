@@ -7,11 +7,17 @@ if !o_game.pausa
     if xx == 0
     {
         reloj_deposito += dlt
-        if reloj_deposito >= 30000000
+        if reloj_deposito >= 25000000
         {
             reloj_deposito = 0;
             
-            if instance_number(o_regalo) < o_game.munidronsuelo
+			var totbot = 0;
+			with o_robot {
+				if !s_chequeorobot(origen, m_todomalo) {
+					totbot++;
+				}
+			}
+            if instance_number(o_regalo) < o_game.munidronsuelo * totbot
             {
                 var otro, xm, ym;
                 var dia = m_radext * o_suelo.resise * 0.9;

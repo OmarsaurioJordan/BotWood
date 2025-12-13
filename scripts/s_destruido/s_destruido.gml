@@ -26,7 +26,7 @@ function s_destruido(argument0) {
 	if joderlo
 	{
 	    //dejar caer las piezas mecanicas
-	    s_caemaquina(argument0, 0);
+		s_caemaquina(argument0, 0);
 	    s_caemaquina(argument0, 1);
 	    s_caemaquina(argument0, 2);
     

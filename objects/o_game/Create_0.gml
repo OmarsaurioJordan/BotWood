@@ -13,6 +13,11 @@ inmune = false;
 munidronsuelo = 0;
 oleada = 1;
 tipomapa = -1;
+muni_inicial = 0;
+
+modo_mele = false;
+modo_dist = false;
+players_lan = 0;
 
 ini_open("configuracion.ini");
 if ini_read_string("config", "onepunch", "0") == "0" {

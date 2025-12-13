@@ -11,40 +11,68 @@ function s_caemaquina(argument0, argument1) {
 	    switch argument1
 	    {
 	        case 0: //golpe
-	            if lanzado
-	            {
-	                lanzado = false;
-	                with o_bolago
-	                {
-	                    if origen == argument0
-	                    {
-	                        instance_destroy();
-	                    }
-	                }
-	                with o_bolareg
-	                {
-	                    if origen == argument0
-	                    {
-	                        instance_destroy();
-	                    }
-	                }
-	            }
-	            var bm = s_invers16(s_cuadra16(ddd));
-	            kae = instance_create(
-	                x + lengthdir_x(18, bm * 22.5),
-	                y + lengthdir_y(18, bm * 22.5),
-	                o_caemaquina);
-	            kae.tipo = 0;
-	            kae.direction = ddd;
+		        if lanzado
+		        {
+		            lanzado = false;
+		            with o_bolago
+		            {
+		                if origen == argument0 and !es_izquierdo
+		                {
+		                    instance_destroy();
+		                }
+		            }
+		            with o_bolareg
+		            {
+		                if origen == argument0 and !es_izquierdo
+		                {
+		                    instance_destroy();
+		                }
+		            }
+		        }
+		        var bm = s_invers16(s_cuadra16(ddd));
+		        kae = instance_create(
+		            x + lengthdir_x(18, bm * 22.5),
+		            y + lengthdir_y(18, bm * 22.5),
+		            o_caemaquina);
+				if o_game.modo_dist {
+			        kae.tipo = 1;
+				}
+				else {
+					kae.tipo = 0;
+				}
+		        kae.direction = ddd;
 	        break;
         
 	        case 1: //distancia
+				if lanzadi
+		        {
+		            lanzadi = false;
+		            with o_bolago
+		            {
+		                if origen == argument0 and es_izquierdo
+		                {
+		                    instance_destroy();
+		                }
+		            }
+		            with o_bolareg
+		            {
+		                if origen == argument0 and es_izquierdo
+		                {
+		                    instance_destroy();
+		                }
+		            }
+		        }
 	            var bd = s_cuadra16(ddd);
 	            kae = instance_create(
 	                x + lengthdir_x(18, bd * 22.5),
 	                y + lengthdir_y(18, bd * 22.5),
 	                o_caemaquina);
-	            kae.tipo = 1;
+				if o_game.modo_mele {
+		            kae.tipo = 0;
+				}
+				else {
+					kae.tipo = 1;
+				}
 	            kae.direction = ddd;
 	        break;
         
