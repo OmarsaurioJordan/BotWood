@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"s_tipomapa",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"s_tipomapa",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

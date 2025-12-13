@@ -1,0 +1,53 @@
+Tareas:
+nota ya subi version a 5
+- si no hay dron ni nada de municion modo mele, dos puños y más alcance
+- mapa aro C inicia full ammo
+- mapas distancia no obligar a separarse
+- mapas distancia inician full ammo
+- mapas mele inician sin ammo
+- redefinir algoritmo dron, flags es no cuanto puede haber sino cuanto debe haber
+- si flags dron top limite, modo distancia, dos disparos y sin dron, recarga con grua
+- cuando juego inicia obtener num players, solo busqueda broadcast si uno desconectado
+
+Protocolo UDP:
+- botwood|0|x - send hola a todos
+- botwood|1|x - send exit a uno
+- botwood|2|x - send lobby a uno ciclo
+- botwood|3|x - send game a uno ciclo
+- botwood|4|grupo|usr|x - receive lobby data
+- botwood|5|maquina|usr|x - receive game data
+
+Personajes:
+red robin violent
+blue jackie calm
+green artis cant down trees
+yellow denis mechanic eater
+purple morgan witchcraft
+white zury cree que es purity
+black shadow hates called bola 8
+aqua akira scientific
+lime rana dummie
+fuchsia pinky sweet pervert
+orange charlie crazy y guaro
+gray poe sad
+
+Sonidos:
+100 musica
+99 menu, lobby, oleada, meta, gol
+85 robomuere
+80 cae: casa, edificio, muro, mech
+65 botmunicoje
+60 empujado
+55 mechroto
+50 disparo, lanzgolp, recogegolp
+40 proy: cae, cayo
+30 golpe
+25 sonido interno
+20 proy: imp, rebot, arbol
+15 tiposnooo
+10 caemaquina
+5 bot: sobrecal, fuego
+
+bots (posicion en pantalla):
+xxxx -> izquierda arriba, derecha arriba, izquierda abajao, derecha abajo -> 0,1,2,3
+...

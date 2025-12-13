@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"s_ip_str_int",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"s_ip_str_int",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

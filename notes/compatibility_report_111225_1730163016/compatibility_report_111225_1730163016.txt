@@ -1,0 +1,162 @@
+Converting GML script: D:\Documentos\ProyectosGamOk\BotWood\mvc\scripts\s_tecla\s_tecla.gml
+String not found: ConversionLog_ConvertedString 12 'W' "W"
+String not found: ConversionLog_ConvertedString 13 'A' "A"
+String not found: ConversionLog_ConvertedString 14 'S' "S"
+String not found: ConversionLog_ConvertedString 15 'D' "D"
+String not found: ConversionLog_ConvertedString 42 'T' "T"
+String not found: ConversionLog_ConvertedString 43 'F' "F"
+String not found: ConversionLog_ConvertedString 44 'G' "G"
+String not found: ConversionLog_ConvertedString 45 'H' "H"
+String not found: ConversionLog_ConvertedString 52 'I' "I"
+String not found: ConversionLog_ConvertedString 53 'J' "J"
+String not found: ConversionLog_ConvertedString 54 'K' "K"
+String not found: ConversionLog_ConvertedString 55 'L' "L"
+String not found: ConversionLog_ConvertedString 62 '1' "1"
+String not found: ConversionLog_ConvertedString 63 '2' "2"
+String not found: ConversionLog_ConvertedString 64 '3' "3"
+String not found: ConversionLog_ConvertedString 65 '4' "4"
+String not found: ConversionLog_ConvertedString 72 '7' "7"
+String not found: ConversionLog_ConvertedString 73 '8' "8"
+String not found: ConversionLog_ConvertedString 74 '9' "9"
+String not found: ConversionLog_ConvertedString 75 '0' "0"
+String not found: ConversionLog_ConvertedString 92 'R' "R"
+String not found: ConversionLog_ConvertedString 93 '5' "5"
+String not found: ConversionLog_ConvertedString 94 '6' "6"
+String not found: ConversionLog_ConvertedString 95 'Y' "Y"
+String not found: ConversionLog_ConvertedString 102 'V' "V"
+String not found: ConversionLog_ConvertedString 103 'B' "B"
+String not found: ConversionLog_ConvertedString 104 'N' "N"
+String not found: ConversionLog_ConvertedString 105 'M' "M"
+String not found: ConversionLog_ConvertedString 112 'Q' "Q"
+String not found: ConversionLog_ConvertedString 113 'P' "P"
+String not found: ConversionLog_ConvertedString 122 'Z' "Z"
+String not found: ConversionLog_ConvertedString 123 'X' "X"
+String not found: ConversionLog_ConvertedString 124 'C' "C"
+
+Converting GML script: D:\Documentos\ProyectosGamOk\BotWood\mvc\scripts\s_split\s_split.gml
+ERROR: D:\Documentos\ProyectosGamOk\BotWood\mvc\scripts\s_split\s_split.gml - 19: unexpected syntax error
+ERROR: D:\Documentos\ProyectosGamOk\BotWood\mvc\scripts\s_split\s_split.gml - 19: malformed variable reference got new
+ERROR: D:\Documentos\ProyectosGamOk\BotWood\mvc\scripts\s_split\s_split.gml - 19: unexpected terminal operator new
+ERROR: D:\Documentos\ProyectosGamOk\BotWood\mvc\scripts\s_split\s_split.gml - 23: malformed variable reference got new
+ERROR: D:\Documentos\ProyectosGamOk\BotWood\mvc\scripts\s_split\s_split.gml - 24: unexpected syntax error
+Too many errors - GML not processed : D:\Documentos\ProyectosGamOk\BotWood\mvc\scripts\s_split\s_split.gml
+
+Converting GML script: D:\Documentos\ProyectosGamOk\BotWood\mvc\scripts\s_str_es_ip_msk\s_str_es_ip_msk.gml
+Converted description /// @description s_str_es_ip_msk(str);/// @param str
+
+Converting GML script: D:\Documentos\ProyectosGamOk\BotWood\mvc\scripts\s_str_split\s_str_split.gml
+ERROR: D:\Documentos\ProyectosGamOk\BotWood\mvc\scripts\s_str_split\s_str_split.gml - 24: unexpected syntax error
+ERROR: D:\Documentos\ProyectosGamOk\BotWood\mvc\scripts\s_str_split\s_str_split.gml - 24: malformed variable reference got new
+ERROR: D:\Documentos\ProyectosGamOk\BotWood\mvc\scripts\s_str_split\s_str_split.gml - 24: unexpected terminal operator new
+ERROR: D:\Documentos\ProyectosGamOk\BotWood\mvc\scripts\s_str_split\s_str_split.gml - 28: malformed variable reference got new
+ERROR: D:\Documentos\ProyectosGamOk\BotWood\mvc\scripts\s_str_split\s_str_split.gml - 30: unexpected syntax error
+Too many errors - GML not processed : D:\Documentos\ProyectosGamOk\BotWood\mvc\scripts\s_str_split\s_str_split.gml
+
+Converting GML script: D:\Documentos\ProyectosGamOk\BotWood\mvc\scripts\s_str_filtro\s_str_filtro.gml
+Converted description /// @description s_str_filtro(str, mascara, limite);/// @param str
+/// @param  mascara
+/// @param  limite
+
+Converting GML script: D:\Documentos\ProyectosGamOk\BotWood\mvc\scripts\s_set_salgase\s_set_salgase.gml
+Converted description /// @description s_set_salgase(quien, valor);/// @param quien
+/// @param  valor
+
+Converting GML script: D:\Documentos\ProyectosGamOk\BotWood\mvc\objects\o_game\Alarm_4.gml
+Converted description /// @description  inicio tutorial
+
+Converting GML script: D:\Documentos\ProyectosGamOk\BotWood\mvc\objects\o_game\Alarm_3.gml
+Converted description /// @description pantalla negra
+
+Converting GML script: D:\Documentos\ProyectosGamOk\BotWood\mvc\objects\o_game\Alarm_2.gml
+Converted description /// @description sonido tos y pajaros
+
+Converting GML script: D:\Documentos\ProyectosGamOk\BotWood\mvc\objects\o_game\Alarm_1.gml
+Converted description /// @description oleadas asediadores
+
+Converting GML script: D:\Documentos\ProyectosGamOk\BotWood\mvc\objects\o_game\Alarm_0.gml
+Converted description /// @description randomizar
+
+Converting GML script: D:\Documentos\ProyectosGamOk\BotWood\mvc\objects\o_game\Step_1.gml
+Converted description /// @description delta
+
+Converting GML script: D:\Documentos\ProyectosGamOk\BotWood\mvc\objects\o_game\Step_0.gml
+Converted description /// @description commands
+
+Converting GML script: D:\Documentos\ProyectosGamOk\BotWood\mvc\objects\o_game\Draw_73.gml
+Converted description /// @description mouse
+
+Converting GML script: D:\Documentos\ProyectosGamOk\BotWood\mvc\objects\o_gamepad\Step_1.gml
+Converted description /// @description mydelta
+
+Converting GML script: D:\Documentos\ProyectosGamOk\BotWood\mvc\objects\o_gamepad\Step_0.gml
+String not found: ConversionLog_ConvertedString 21 '' ""
+
+Converting GML script: D:\Documentos\ProyectosGamOk\BotWood\mvc\objects\o_pacificante\Alarm_0.gml
+Converted description /// @description muestra mensaje
+
+Converting GML script: D:\Documentos\ProyectosGamOk\BotWood\mvc\objects\o_howto\Alarm_0.gml
+Converted description /// @description  para poder cambiar de imagen
+
+Converting GML script: execute_shell_simple_ext.gml
+Converted description /// @description  (path, args = "", action = "open", showCmd = 5/*SW_OPEN*/)/// @param path
+/// @param  args = ""
+/// @param  action = "open"
+/// @param  showCmd = 5/*SW_OPEN*/
+
+Missing audiogroup for sound: 'a_men_tos' - setting to default audio group
+Missing audiogroup for sound: 'a_men_puerta' - setting to default audio group
+Missing audiogroup for sound: 'a_men_onepunch' - setting to default audio group
+Missing audiogroup for sound: 'a_men_reloj1' - setting to default audio group
+Missing audiogroup for sound: 'a_men_reloj2' - setting to default audio group
+Missing audiogroup for sound: 'a_men_noreloj' - setting to default audio group
+Missing audiogroup for sound: 'a_edi_save' - setting to default audio group
+Missing audiogroup for sound: 'a_edi_poner' - setting to default audio group
+Missing audiogroup for sound: 'a_edi_quitar' - setting to default audio group
+Missing audiogroup for sound: 'a_edi_cambio' - setting to default audio group
+Missing audiogroup for sound: 'a_bot_disparo' - setting to default audio group
+Missing audiogroup for sound: 'a_bot_lanzgolpe' - setting to default audio group
+Missing audiogroup for sound: 'a_bot_golpe' - setting to default audio group
+Missing audiogroup for sound: 'a_bot_migolpe' - setting to default audio group
+Missing audiogroup for sound: 'a_bot_sobrecal' - setting to default audio group
+Missing audiogroup for sound: 'a_bot_fuego' - setting to default audio group
+Missing audiogroup for sound: 'a_bot_muni' - setting to default audio group
+Missing audiogroup for sound: 'a_bot_caeparte' - setting to default audio group
+Missing audiogroup for sound: 'a_bot_malaparte' - setting to default audio group
+Missing audiogroup for sound: 'a_bot_camina' - setting to default audio group
+Missing audiogroup for sound: 'a_bot_murio' - setting to default audio group
+Missing audiogroup for sound: 'a_proy_rebot' - setting to default audio group
+Missing audiogroup for sound: 'a_proy_impact' - setting to default audio group
+Missing audiogroup for sound: 'a_proy_inicae' - setting to default audio group
+Missing audiogroup for sound: 'a_proy_suelo' - setting to default audio group
+Missing audiogroup for sound: 'a_proy_arbol' - setting to default audio group
+Missing audiogroup for sound: 'a_proy_fin' - setting to default audio group
+Missing audiogroup for sound: 'a_map_rocacorre' - setting to default audio group
+Missing audiogroup for sound: 'a_map_edificae1' - setting to default audio group
+Missing audiogroup for sound: 'a_map_edificae2' - setting to default audio group
+Missing audiogroup for sound: 'a_map_caecasa' - setting to default audio group
+Missing audiogroup for sound: 'a_map_caemuro' - setting to default audio group
+Missing audiogroup for sound: 'a_map_tumbarbol' - setting to default audio group
+Missing audiogroup for sound: 'a_map_oleada' - setting to default audio group
+Missing audiogroup for sound: 'a_map_meta' - setting to default audio group
+Missing audiogroup for sound: 'a_map_mechcaido' - setting to default audio group
+Missing audiogroup for sound: 'a_map_pajaros' - setting to default audio group
+Missing audiogroup for sound: 'a_map_aire' - setting to default audio group
+Missing audiogroup for sound: 'a_map_gol' - setting to default audio group
+Missing audiogroup for sound: 'a_map_torregira' - setting to default audio group
+Missing audiogroup for sound: 'a_int_pedal' - setting to default audio group
+Missing audiogroup for sound: 'a_int_ventila' - setting to default audio group
+Missing audiogroup for sound: 'a_int_manivela' - setting to default audio group
+Missing audiogroup for sound: 'a_int_bomba' - setting to default audio group
+Missing audiogroup for sound: 'a_int_toma' - setting to default audio group
+Missing audiogroup for sound: 'a_int_boton' - setting to default audio group
+Missing audiogroup for sound: 'a_int_enrrolla' - setting to default audio group
+Missing audiogroup for sound: 'a_int_bien' - setting to default audio group
+Missing audiogroup for sound: 'a_tipos_nooo' - setting to default audio group
+Missing audiogroup for sound: 'a_mus_editor' - setting to default audio group
+Missing audiogroup for sound: 'a_mus_menu' - setting to default audio group
+Missing audiogroup for sound: 'a_mus_lobby' - setting to default audio group
+Missing audiogroup for sound: 'a_mus_game' - setting to default audio group
+Game speed set to 60
+Added compatibility script 'instance\instance_create.gml'
+Added compatibility script 'object\object_get_depth.gml'
+Added compatibility script '__global_object_depths.gml'

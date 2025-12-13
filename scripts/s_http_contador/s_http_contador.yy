@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"s_http_contador",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"s_http_contador",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

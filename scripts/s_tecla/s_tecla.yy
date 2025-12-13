@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"s_tecla",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"s_tecla",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

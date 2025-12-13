@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"s_cuadra16",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"s_cuadra16",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"s_ponebolas",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"s_ponebolas",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

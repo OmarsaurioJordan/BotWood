@@ -1,6 +1,6 @@
 # BotWood
 
-Requiere GMS 1.4
+Requiere GMS 2
 
 Finalizado en 2019
 

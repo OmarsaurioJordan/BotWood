@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"s_set_salgase",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"s_set_salgase",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
