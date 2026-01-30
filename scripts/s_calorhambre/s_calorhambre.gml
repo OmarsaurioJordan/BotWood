@@ -9,12 +9,9 @@ function s_calorhambre(argument0, argument1, argument2, argument3) {
 	{
 	    if quien == argument1
 	    {
-	        hambre = clamp(hambre + argument3, 0, m_hambre);
+	        hambre = clamp(hambre + argument3 * m_esc_hambre, 0, m_hambre);
 	        break;
 	    }
 	}
-	argument0.calor = clamp(argument0.calor + argument2, 0, m_calor);
-
-
-
+	argument0.calor = clamp(argument0.calor + argument2 * m_esc_calor, 0, m_calor);
 }

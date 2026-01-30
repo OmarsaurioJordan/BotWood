@@ -2,7 +2,7 @@ if !o_game.pausa
 {
     s_anima(id, 0, m_anima * (1 / s_cansado(quien)), 4);
     
-    hambre = clamp(hambre - dlt * 0.1, 0, m_hambre);
+    hambre = clamp(hambre - dlt * 0.1 * m_esc_hambre, 0, m_hambre);
     if agotado
     {
         if hambre >= m_hambre * 0.5

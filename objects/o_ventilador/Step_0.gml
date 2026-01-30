@@ -10,4 +10,3 @@ if !o_game.pausa
     }
     s_activo(id, 1, m_reactiva);
 }
-

@@ -22,7 +22,7 @@ if !o_game.pausa
     else
     {
         //calcular cambios de temperatura
-        calor = clamp(calor - dlt * (m_calor / m_natufrio), 0, m_calor);
+        calor = clamp(calor - dlt * (m_calor / m_natufrio) * m_esc_calor, 0, m_calor);
         if sobrecal
         {
             if calor <= m_calor * 0.75

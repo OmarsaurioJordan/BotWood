@@ -1,5 +1,10 @@
 function macros() {
-#macro m_version "1.6"
+#macro m_version "1.7"
+
+#macro m_esc_dlt 1.666
+#macro m_esc_hambre 0.6
+#macro m_esc_calor 0.6
+
 #macro m_velave 0.00002
 #macro m_textoman 1
 #macro m_turbobot 1.25
