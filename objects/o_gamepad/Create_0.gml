@@ -8,7 +8,6 @@ for (var i = 0; i < 12; i++)
     gamepad_set_axis_deadzone(i, 0.05);
 }
 
-mydelta = 0;
 ini_open("configuracion.ini");
 msk_lan = ini_read_string("config", "msk_lan", "255.255.255.0");
 dir_lan = ini_read_string("config", "dir_lan", "192.168.1.0");

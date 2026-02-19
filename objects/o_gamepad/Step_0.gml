@@ -30,7 +30,7 @@ if room == w_configuracion {
 }
 
 // parpadeo edicion
-reloj_blink -= mydelta;
+reloj_blink -= dlts;
 if reloj_blink < 0 {
 	reloj_blink += 0.6;
 }
@@ -41,7 +41,7 @@ if !ds_stack_empty(broadcast) {
     network_send_udp_raw(servidor, _ip, puerto, saludo_buf, saludo_size);
 }
 else {
-	reloj_red -= mydelta;
+	reloj_red -= dlts;
 	if reloj_red <= 0 {
 	    reloj_red += 5;
 		if s_lan_players() < o_game.players_lan or room != w_juego {
@@ -58,9 +58,9 @@ else {
 }
 
 // envio modo actual a Apps
-reloj_ping -= mydelta;
+reloj_ping -= dlts;
 if reloj_ping <= 0 {
-    reloj_ping += 0.5;
+    reloj_ping += 1;
     var buf = buffer_create(1, buffer_grow, 1);
     buffer_seek(buf, buffer_seek_start, 0);
     if room == w_lobby {
@@ -86,7 +86,7 @@ for (var i = 0; i < 12; i++)
 {
     // networking
     if user_ip[i] != "" {
-        user_final[i] -= mydelta;
+        user_final[i] -= dlts;
         if user_final[i] <= 0 {
             user_ip[i] = "";
             user_final[i] = 0;

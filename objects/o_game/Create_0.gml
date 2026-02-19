@@ -2,8 +2,9 @@ with (other) {
 depth = -(room_height * 2);
 persistent = true;
 
-globalvar dlt;
+globalvar dlt, dlts;
 dlt = 0;
+dlts = 0;
 
 escint = 1;
 eschum = 0.35;
