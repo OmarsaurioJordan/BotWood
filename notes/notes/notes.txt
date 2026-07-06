@@ -5,6 +5,7 @@ Tareas:
 - hacer log de envios y recepciones, como en UVV, se escribe en RAM y cada tanto se volca a HDD
 - vapor en botón no debe ralentizar ese widget
 - hacer App desktop para manejo en escritorio viendo la pantalla del party
+- comentar broadcast, tratar de poner IP server en pantalla, pedir IP en App manualmente
 
 Futuro:
 - debe saberse en el juego con nombres, qué personaje es cada quién, ingresarlo en App

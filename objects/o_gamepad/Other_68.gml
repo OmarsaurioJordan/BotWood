@@ -4,7 +4,7 @@ if ds_map_find_value(async_load, "type") == network_type_data {
     var txt = buffer_read(paquete, buffer_string);
     buffer_delete(paquete);
     var msj = s_split(txt, "|", false);
-    if is_array(msj) { if array_length_1d(msj) == 5 { if msj[0] == "botwood" {
+    if is_array(msj) { if array_length(msj) == 5 { if msj[0] == "botwood" {
         // conexion
         var ipp = ds_map_find_value(async_load, "ip");
         var usr = real(msj[3]); // 0-11

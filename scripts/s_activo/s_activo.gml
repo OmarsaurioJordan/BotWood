@@ -31,7 +31,4 @@ function s_activo(argument0, argument1, argument2) {
 	        }
 	    }
 	}
-
-
-
 }
